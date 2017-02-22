@@ -1,0 +1,120 @@
+/* Gallerie */
+
+
+#container{
+	margin-left: 40;
+	margin-top: 50;
+	height: 500px;
+	width:800px;
+	float:left;
+	color:black;
+	background:#fff url(images/navi/back.jpg) 240px 180px no-repeat; 
+}
+
+#container ul{
+	padding:0;
+	list-style-type:none;
+	width:900px;
+	height: 120px;
+	margin: 5px;
+} 
+
+#container li{
+	float: left;
+}
+
+
+#container a.gallery span {
+	width:1px;
+	height:1px;
+	top:5px;
+	left:5px; 
+	float:left;
+	overflow:hidden;
+	background:#fff;
+}
+
+/*thumbnails*/
+#container a.gallery, container a.gallery:visited{
+	display:block;
+	color:#000;
+	text-decoration:none;
+	border:1px solid #fff;
+	margin: 1px 2px 1px 2px;
+	text-align:left;
+	cursor:default;
+}
+#container a.gallery:hover{
+	border:1px solid #000;	
+	text-decoration:none;
+}
+
+#container a.gallery:hover span{
+	width:450px;
+	height:300px;
+	color:#000;
+	background:#fff;
+	margin-top:160px;
+	text-decoration:none;
+} 
+
+
+
+#container a.slidea {
+	background:url(images/vabilder/thumb/p01.jpg);
+	height: 80px;
+	width: 120px;
+}
+#container a.slidea:hover span { margin-left:236px;}
+	
+
+
+#container a.slideb {
+	background:url(images/vabilder/thumb/p02.jpg);
+	height: 80px;
+	width: 120px;
+}
+#container a.slideb:hover span {margin-left:110px;}
+	
+
+
+#container a.slidec {
+	background:url(images/vabilder/thumb/p03.jpg);
+	height:80px;
+	width: 110px;
+}
+#container a.slidec:hover span {	margin-left:-16px;}
+
+
+
+#container a.slided {
+	background:url(images/vabilder/thumb/p04.jpg);
+	height:80px;
+	width: 120px;
+}
+#container a.slided:hover span { margin-left:-132px;}
+
+
+
+#container a.slidee {
+	background:url(images/vabilder/thumb/p05.jpg);
+	height:80px;
+	width: 120px;
+}
+#container a.slidee:hover span {	margin-left:-258px; }
+
+
+
+#container a.slidef {
+	background:url(images/vabilder/thumb/p06.jpg);
+	height:80px;
+	width: 120px;
+}
+#container a.slidef:hover span { margin-left:-384px;}	
+
+#container a.slideg {
+	background:url(images/vabilder/thumb/p07.jpg);
+	height:80px;
+	width: 120px;
+}
+#container a.slideg:hover span { margin-left:-510px;}
