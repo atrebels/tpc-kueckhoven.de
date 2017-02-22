@@ -10,18 +10,19 @@
     <meta name="description" content="">
     <meta name="author" content="">
 	
-    <title>DJs On Tour - Sound &amp; light</title>
+    <title>TPC Kürckhoven</title>
 
-	<link rel='shortcut icon' href='images/favicon-ico.png'>
+    <link rel='shortcut icon' href='content/images/favicon-tpc.png'>
 	
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
     <!-- Custom CSS -->
-    <link href="css/business-frontpage.css" rel="stylesheet">
-	<link href="fonts/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="stylesheets/business-frontpage.css" rel="stylesheet">
+    <link href="stylesheets/custom.css" rel="stylesheet">
+    <link href="fonts/css/font-awesome.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,7 +36,7 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="border-color:#104e8b ;background-color:#104e8b;">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -45,22 +46,19 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" rel="home" href="index.php?location=Home">
-					<img style="max-width:200px; margin-top: -7px;" src="images/logo.png" />
-				</a>
+                <a class="navbar-brand" rel="home" href="index.php?location=Home"><b>TPC Kückhoven</b></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>	<a href="index.php?location=Events">Termine</a>	</li>
-                    <li>	<a href="index.php?location=Bilder">Bilder</a>	</li>
-                    <li>	<a href="index.php?location=Equipment">Equipment</a>	</li>
-                    <li>	<a href="index.php?location=About">&Uuml;ber uns</a>	</li>
+                    <li>	<a href="#">Verein</a>	</li>
+                    <li>	<a href="#">Impressionen</a>	</li>
+                    <li>	<a href="#">Mitglied werden</a>	</li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Kontakt <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="index.php?location=Kontakt">Kontakt</a></li>
-                            <li><a href="index.php?location=Impressum">Impressum</a></li>
+                            <li><a href="#">Kontakt</a></li>
+                            <li><a href="#">Booking</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -71,7 +69,7 @@
     </nav>
 
     <!-- Page Content -->
-    <?php include 'content.php'; ?>
+    <?php include 'router/_r_main.php'; ?>
 
 
     <!-- Footer -->
