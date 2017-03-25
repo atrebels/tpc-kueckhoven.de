@@ -34,7 +34,6 @@
 </head>
 
 <body>
-
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="border-color:#104e8b ;background-color:#104e8b;">
         <div class="container">
@@ -46,18 +45,18 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" rel="home" href="index.php?location=Home"><b>TPC Kückhoven</b></a>
+                <a class="navbar-brand" rel="home" href="?location=Home"><b>TPC Kückhoven</b></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>	<a href="#">Verein</a>	</li>
                     <li>	<a href="#">Impressionen</a>	</li>
-                    <li>	<a href="#">Mitglied werden</a>	</li>
+                    <li>	<a href="?location=MitgliedWerden">Mitglied werden</a>	</li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Kontakt <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Kontakt</a></li>
+                            <li><a href="?location=Kontakt">Kontakt</a></li>
                             <li><a href="#">Booking</a></li>
                         </ul>
                     </li>
@@ -78,7 +77,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <center><p>Copyright &copy; Eggerath & Trebels GbR 2015</p></center>
+                    <center><p>Copyright &copy; Andre Trebels 2017</p></center>
                 </div>
             </div><!-- /.row -->
         </div>

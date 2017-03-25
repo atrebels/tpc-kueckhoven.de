@@ -17,7 +17,10 @@ if (isset($_GET['location'])) {
             //include "content/ueberuns.php";
             break;
         case 'Kontakt':
-            //include "content/kontakt.html";
+            include "content/kontakt.php";
+            break;
+        case 'MitgliedWerden':
+            include "content/mitgliedwerden.html";
             break;
         default:
             header($_SERVER["SERVER_PROTOCOL"]." 404 Not Found", true, 404);
