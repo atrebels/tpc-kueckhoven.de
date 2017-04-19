@@ -13,8 +13,8 @@ if (isset($_GET['location'])) {
         case 'Home':
             include "content/home.html";
             break;
-        case 'UeberUns':
-            //include "content/ueberuns.php";
+        case 'Verein':
+            include "content/verein.html";
             break;
         case 'Kontakt':
             include "content/kontakt.php";

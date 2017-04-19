@@ -50,16 +50,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>	<a href="#">Verein</a>	</li>
-                    <li>	<a href="#">Impressionen</a>	</li>
+                    <li>	<a href="?location=Verein">Verein</a>	</li>
+                    <li>	<a href="?location=Referenzen">Referenzen</a>	</li>
                     <li>	<a href="?location=MitgliedWerden">Mitglied werden</a>	</li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Kontakt <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="?location=Kontakt">Kontakt</a></li>
-                            <li><a href="#">Booking</a></li>
-                        </ul>
-                    </li>
+                    <li>	<a href="?location=Kontakt">Kontakt</a>	</li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
