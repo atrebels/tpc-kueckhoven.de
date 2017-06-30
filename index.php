@@ -63,19 +63,17 @@
 
     <!-- Page Content -->
     <?php include 'router/_r_main.php'; ?>
-
-
     <!-- Footer -->
     <hr>
-    <footer>
+    <footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <center><p>Copyright &copy; Andre Trebels 2017</p></center>
+                    <center><p><a href="?location=Impressum">Impressum</a> - <a href="?location=Disclaimer">Disclaimer</a> - <a href="?location=Datenschutz">Datenschutz</a></p></center>
+                    <center><p>Copyright &copy; Andre Trebels 2017</p></center> 
                 </div>
             </div><!-- /.row -->
         </div>
     </footer>
 </body>
-
 </html>
