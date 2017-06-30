@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
 
@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 	
-    <title>TPC Kürckhoven</title>
+    <title>TPC Kückhoven</title>
 
     <link rel='shortcut icon' href='content/images/favicon-tpc.png'>
 	
